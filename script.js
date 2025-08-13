@@ -110,7 +110,7 @@ class DownloadCounter {
     simulateDownload() {
         // Create a temporary link to simulate download
         const link = document.createElement('a');
-        link.href = '../Doc-smart.exe'; // Path to your exe file
+        link.href = './Doc-smart.exe'; // Path to your exe file
         link.download = 'Doc-smart-v0.1.exe';
         
         // Try to download the actual file if it exists
