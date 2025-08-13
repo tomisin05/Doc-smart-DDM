@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc-smart - Debate Document Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Doc-smart</div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#download">Download</a>
+                <a href="#about">About</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Doc-smart</h1>
+                <p class="tagline">Fast access to your debate prep Word documents</p>
+                <p class="description">Streamline your debate preparation with intelligent document management, team organization, and instant Word integration.</p>
+                <div class="cta-buttons">
+                    <button id="downloadBtn" class="btn-primary">Download v0.1</button>
+                    <a href="#features" class="btn-secondary">Learn More</a>
+                </div>
+                <div class="download-stats">
+                    <span id="downloadCount">0</span> downloads
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Main Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📁</div>
+                    <h3>Document Management</h3>
+                    <p>Organize Word documents with custom names, tags, and team assignments for quick access during debates.</p>
+                    <ul>
+                        <li>Add documents from files or URLs</li>
+                        <li>Custom tagging system</li>
+                        <li>Favorite documents</li>
+                        <li>Import entire folders</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Team Organization</h3>
+                    <p>Create and manage debate teams with dedicated document collections for organized preparation.</p>
+                    <ul>
+                        <li>Create multiple teams</li>
+                        <li>Assign documents to teams</li>
+                        <li>Open all team documents at once</li>
+                        <li>Team-based filtering</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Smart Search & Filtering</h3>
+                    <p>Find documents instantly with powerful search and filtering capabilities.</p>
+                    <ul>
+                        <li>Real-time search by name and tags</li>
+                        <li>Filter by favorites</li>
+                        <li>Team-based filtering</li>
+                        <li>Status tracking (open/closed)</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Word Integration</h3>
+                    <p>Seamless Microsoft Word integration with automatic document tracking and management.</p>
+                    <ul>
+                        <li>One-click document opening</li>
+                        <li>Track open/closed status</li>
+                        <li>Close documents remotely</li>
+                        <li>Last opened timestamps</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">💾</div>
+                    <h3>Data Management</h3>
+                    <p>Secure data storage with import/export capabilities for backup and sharing.</p>
+                    <ul>
+                        <li>Automatic data saving</li>
+                        <li>Export to JSON</li>
+                        <li>Persistent settings</li>
+                        <li>Cross-session document tracking</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Debate-Focused Design</h3>
+                    <p>Built specifically for debate preparation workflows and tournament environments.</p>
+                    <ul>
+                        <li>Quick access during rounds</li>
+                        <li>Batch document operations</li>
+                        <li>Tournament-ready interface</li>
+                        <li>Minimal resource usage</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="functionality">
+            <h2>Key Functionalities</h2>
+            <div class="functionality-list">
+                <div class="func-category">
+                    <h3>Document Operations</h3>
+                    <div class="buttons-demo">
+                        <button class="demo-btn">Add Document</button>
+                        <button class="demo-btn">Import Folder</button>
+                        <button class="demo-btn">Open Selected</button>
+                        <button class="demo-btn">Close Selected</button>
+                        <button class="demo-btn">Mark Favorite</button>
+                        <button class="demo-btn">Remove Document</button>
+                    </div>
+                </div>
+
+                <div class="func-category">
+                    <h3>Team Management</h3>
+                    <div class="buttons-demo">
+                        <button class="demo-btn">Add Team</button>
+                        <button class="demo-btn">Rename Team</button>
+                        <button class="demo-btn">Delete Team</button>
+                        <button class="demo-btn">Open Team Docs</button>
+                    </div>
+                </div>
+
+                <div class="func-category">
+                    <h3>Batch Operations</h3>
+                    <div class="buttons-demo">
+                        <button class="demo-btn">Close All Open</button>
+                        <button class="demo-btn">Export Data</button>
+                        <button class="demo-btn">Toggle Favorites</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download-section">
+            <h2>Download Doc-smart v0.1</h2>
+            <p>Get started with the initial release. We're actively working on improvements and bug fixes for future versions.</p>
+            
+            <div class="download-card">
+                <div class="download-info">
+                    <h3>Doc-smart v0.1</h3>
+                    <p>Initial release with core functionality</p>
+                    <ul>
+                        <li>Windows 10/11 compatible</li>
+                        <li>Microsoft Word integration</li>
+                        <li>Standalone executable</li>
+                        <li>No installation required</li>
+                    </ul>
+                </div>
+                <div class="download-action">
+                    <button id="mainDownloadBtn" class="btn-download">
+                        <span class="download-icon">⬇</span>
+                        Download EXE
+                    </button>
+                    <div class="download-counter">
+                        <strong id="downloadCountDisplay">0</strong> downloads
+                    </div>
+                </div>
+            </div>
+
+            <div class="version-note">
+                <p><strong>Version 0.1 Note:</strong> This is our initial release. We're actively collecting feedback and working on improvements. Future versions will include bug fixes, performance enhancements, and new features based on user feedback.</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Doc-smart</h2>
+            <p>Doc-smart was created to solve the common problem debaters face: managing and quickly accessing numerous Word documents during preparation and competition. Built with Python and Tkinter, it provides a lightweight yet powerful solution for debate document management.</p>
+            
+            <div class="tech-specs">
+                <h3>Technical Specifications</h3>
+                <ul>
+                    <li>Built with Python 3.x</li>
+                    <li>Tkinter GUI framework</li>
+                    <li>Windows COM integration for Word</li>
+                    <li>JSON data storage</li>
+                    <li>Cross-platform compatible</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Doc-smart. Built for the debate community.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
