@@ -1,4 +1,5 @@
-('C:\\Users\\tomis\\Downloads\\doc-smart (1)\\build\\docsmart\\PYZ-00.pyz',
+('C:\\Users\\tomis\\Downloads\\Debate Projects\\Doc-smart '
+ 'DDM\\installer\\build\\docsmart\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Program Files\\Python310\\lib\\_compat_pickle.py',
    'PYMODULE'),
